@@ -37,21 +37,21 @@ public class AnimateHandOnInput : MonoBehaviour
         {
             target.transform.Rotate(0, 90, 0, Space.World);
         }
-        // Girar el cubo hacia la derecha
-        if(triggerValue < 1)
-        {
-            target.transform.Rotate(0, -90, 0, Space.World);
-        }
-        // Girar el cubo hacia arriba
-        if(gripValue == 1)
-        {
-            target.transform.Rotate(90, 0, 0, Space.World);
-        }
-        // Girar el cubo hacia abajo
-        if(gripValue < 1)
-        {
-            target.transform.Rotate(-90, 0, 0, Space.World);
-        }
+        // // Girar el cubo hacia la derecha
+        // if(triggerValue < 1)
+        // {
+        //     target.transform.Rotate(0, -90, 0, Space.World);
+        // }
+        // // Girar el cubo hacia arriba
+        // if(gripValue == 1)
+        // {
+        //     target.transform.Rotate(90, 0, 0, Space.World);
+        // }
+        // // Girar el cubo hacia abajo
+        // if(gripValue < 1)
+        // {
+        //     target.transform.Rotate(-90, 0, 0, Space.World);
+        // }
 
 
     }
